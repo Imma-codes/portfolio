@@ -46,6 +46,7 @@ header{
     justify-content:space-between;
     align-items:center;
     padding:20px 10%;
+    position: relative;
 }
 .logo{
     font-size:2rem;
@@ -387,10 +388,15 @@ padding:90px 7%;
     position: absolute;
     top: 70px;
     right: 20px;
-    background: white;
-    width: 200px;
+    background: #fff;
+    width: 220px;
     padding: 20px;
     border-radius: 10px;
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba (0,0,0,0.15);
+}
+.nav-links.active{
+    display: flex;
 }
 .navbar{
 flex-direction:column;
