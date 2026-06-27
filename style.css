@@ -393,17 +393,20 @@ padding:90px 7%;
     padding: 20px;
     border-radius: 10px;
     gap: 15px;
-    box-shadow: 0 4px 10px rgba (0,0,0,0.15);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.logo{
+    font-size: 1.6rem;
 }
 .nav-links.active{
     display: flex;
 }
 .navbar{
-flex-direction:column;
-gap:20px;
-}
-#menu-toggle:checked ~ .nav-links{
-    display: flex;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+padding: 15px 20px;
 }
 .hero-text h1{
 font-size:3rem;
